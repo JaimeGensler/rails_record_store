@@ -4,7 +4,7 @@ class CreateAlbums < ActiveRecord::Migration[6.0]
             t.column(:name, :string)
             t.column(:year, :integer)
 
-            t.timestamps()
+            t.timestamps
         end
     end
 end
